@@ -239,6 +239,7 @@ export class Navbar extends Component<NavbarProps, NavbarState> {
                   </NavLink>
                 </li>
               )}
+              {/*
               <li className="nav-item">
                 <a
                   className="nav-link d-inline-flex align-items-center d-md-inline-block"
@@ -251,6 +252,7 @@ export class Navbar extends Component<NavbarProps, NavbarState> {
                   </span>
                 </a>
               </li>
+              */}
             </ul>
             <ul id="navbarIcons" className="navbar-nav">
               <li id="navSearch" className="nav-item">
