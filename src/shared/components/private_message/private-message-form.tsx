@@ -80,6 +80,7 @@ export class PrivateMessageForm extends Component<
             </div>
           </div>
         )}
+        {/*
         <div className="alert alert-warning small">
           <Icon icon="alert-triangle" classes="icon-inline me-1" />
           <T parent="span" i18nKey="private_message_disclaimer">
@@ -115,6 +116,7 @@ export class PrivateMessageForm extends Component<
             </>
           )}
         </div>
+        */}
         <div className="mb-3 row">
           <label className="col-sm-2 col-form-label">
             {I18NextService.i18n.t("message")}
