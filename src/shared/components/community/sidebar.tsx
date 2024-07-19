@@ -164,6 +164,7 @@ export class Sidebar extends Component<SidebarProps, SidebarState> {
                   {myUserInfo && this.blockCommunity()}
                 </>
               )}
+              {/*
               {!myUserInfo && (
                 <div className="alert alert-info" role="alert">
                   <T
@@ -177,6 +178,7 @@ export class Sidebar extends Component<SidebarProps, SidebarState> {
                   </T>
                 </div>
               )}
+              */}
             </div>
           </section>
           <section id="sidebarInfo" className="card border-secondary mb-3">
