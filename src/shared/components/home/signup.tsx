@@ -171,7 +171,8 @@ export class Signup extends Component<
             />
           </div>
         </div>
-
+     
+        {/*
         <div className="mb-3 row">
           <label className="col-sm-2 col-form-label" htmlFor="register-email">
             {I18NextService.i18n.t("email")}
@@ -202,7 +203,8 @@ export class Signup extends Component<
               )}
           </div>
         </div>
-
+        */}  
+      
         <div className="mb-3">
           <PasswordInput
             id="register-password"
