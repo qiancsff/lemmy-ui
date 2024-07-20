@@ -61,7 +61,7 @@ export class CommentSortSelect extends Component<
           rel={relTags}
           title={I18NextService.i18n.t("sorting_help")}
         >
-          <Icon icon="help-circle" classes="icon-inline" />
+         {/* <Icon icon="help-circle" classes="icon-inline" />*/}
         </a>
       </>
     );
