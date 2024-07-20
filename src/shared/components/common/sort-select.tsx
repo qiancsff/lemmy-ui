@@ -3,7 +3,7 @@ import { Component, linkEvent } from "inferno";
 import { SortType } from "lemmy-js-client";
 import { relTags, sortingHelpUrl } from "../../config";
 import { I18NextService } from "../../services";
-{/* import { Icon } from "./icon";  */}
+import { Icon } from "./icon";
 
 interface SortSelectProps {
   sort: SortType;
@@ -97,16 +97,14 @@ export class SortSelect extends Component<SortSelectProps, SortSelectState> {
           <option value={"TopYear"}>{I18NextService.i18n.t("top_year")}</option>
           <option value={"TopAll"}>{I18NextService.i18n.t("top_all")}</option>
         </select>
-	    {/*
         <a
           className="sort-select-icon text-muted"
           href={sortingHelpUrl}
           rel={relTags}
           title={I18NextService.i18n.t("sorting_help")}
         >
-          <Icon icon="help-circle" classes="icon-inline" />
+         {/* <Icon icon="help-circle" classes="icon-inline" />*/}
         </a>
-		*/}
       </>
     );
   }
