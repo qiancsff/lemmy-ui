@@ -3,7 +3,7 @@ import { Component, linkEvent } from "inferno";
 import { CommentSortType } from "lemmy-js-client";
 import { relTags, sortingHelpUrl } from "../../config";
 import { I18NextService } from "../../services";
-import { Icon } from "./icon";
+{/* import { Icon } from "./icon"; */}
 
 interface CommentSortSelectProps {
   sort: CommentSortType;
