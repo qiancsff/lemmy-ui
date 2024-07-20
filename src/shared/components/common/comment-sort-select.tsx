@@ -55,6 +55,7 @@ export class CommentSortSelect extends Component<
           <option value={"New"}>{I18NextService.i18n.t("new")}</option>
           <option value={"Old"}>{I18NextService.i18n.t("old")}</option>
         </select>
+		{/*
         <a
           className="sort-select-help text-muted"
           href={sortingHelpUrl}
@@ -63,6 +64,7 @@ export class CommentSortSelect extends Component<
         >
           <Icon icon="help-circle" classes="icon-inline" />
         </a>
+		*/}
       </>
     );
   }
