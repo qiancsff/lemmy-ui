@@ -22,6 +22,7 @@ export class ErrorPage extends Component<any, any> {
             ? I18NextService.i18n.t("error_page_title")
             : I18NextService.i18n.t("not_found_page_title")}
         </h1>
+		{/* qiancsf
         {errorPageData ? (
           <T i18nKey="error_page_paragraph" className="p-4" parent="p">
             #<a href="https://lemmy.ml/c/lemmy_support">#</a>#
@@ -30,6 +31,7 @@ export class ErrorPage extends Component<any, any> {
         ) : (
           <p>{I18NextService.i18n.t("not_found_page_message")}</p>
         )}
+		*/}
         {!errorPageData && (
           <Link to="/" replace>
             {I18NextService.i18n.t("not_found_return_home_button")}
