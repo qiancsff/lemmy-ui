@@ -483,6 +483,7 @@ export class PostForm extends Component<PostFormProps, PostFormState> {
             />
             {this.renderSuggestedTitleCopy()}
             {url && validURL(url) && (
+              {/*
               <div>
                 <a
                   href={`${webArchiveUrl}/save/${encodeURIComponent(url)}`}
@@ -506,6 +507,7 @@ export class PostForm extends Component<PostFormProps, PostFormState> {
                   archive.today {I18NextService.i18n.t("archive_link")}
                 </a>
               </div>
+              */}
             )}
           </div>
         </div>
